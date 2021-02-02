@@ -9,7 +9,7 @@ namespace ResxLocalizationTest
 {
     public class MainViewModel : MvxViewModel
     {
-        public IMvxLanguageBinder TextSource => new MvxLanguageBinder("", GetType().Name);
+        public IMvxLanguageBinder TextSource => new MvxLanguageBinder();
 
         public MainViewModel()
         {

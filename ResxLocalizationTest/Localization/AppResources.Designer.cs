@@ -47,8 +47,8 @@ namespace ResxLocalizationTest.Localization {
         }
         
         /// <summary>
-        ///   重写当前线程的 CurrentUICulture 属性
-        ///   重写当前线程的 CurrentUICulture 属性。
+        ///   重写当前线程的 CurrentUICulture 属性，对
+        ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture {
@@ -63,9 +63,9 @@ namespace ResxLocalizationTest.Localization {
         /// <summary>
         ///   查找类似 Hello 的本地化字符串。
         /// </summary>
-        internal static string MainViewModel_StrHello {
+        internal static string StrHello {
             get {
-                return ResourceManager.GetString("MainViewModel.StrHello", resourceCulture);
+                return ResourceManager.GetString("StrHello", resourceCulture);
             }
         }
     }
